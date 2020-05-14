@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header section */
+header {
+  width: 100%;
+  float: left;
+  background: #ffffff;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 50%;
+  float: left;
+  margin: 20px 0;
+}
+
+.menu {
+  width: 50%;
+  float: left;
+  margin-top: 28px;
+}
+
+
+.menu nav ul li {
+  display: inline-block;
+  color: #989898;
+  
+  font-size: 16.2px;
+  font-weight: 600;
+  padding-right: 24px;
+}
+
+.menu nav ul li a {
+  text-decoration: none;
+}
+
+/***banner section start***/
+
+.banner {
+  width: 100%;
+  float: left;
+  background: url(../img/icrowdme-PSD---cssauthor.jpg);
+  background-size: cover;
+  background-color: black;
+}
+
+.banner-content {
+  width: 70%;
+  margin: 164px auto;
+  text-align: center;
+}
+
+.banner-content h2 {
+  font-size: 43.2px;
+  color: white;
+  padding-bottom: 9px;
+}
+
+.banner-content p {
+  font-size: 36.2px;
+  color: white;
+  font-weight: 400;
+  padding-bottom: 39px;
+}
+
+.banner-content .btn1 {
+  font-size: 18.2px;
+  padding: 19px 25px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  background: #99c50a;
+  border-radius: 14px;
+}
+
+/*** content section start ***/
+
+.ba {
+  width: 100%;
+  float: left;
+}
+
+.ba .container {
+  margin: 96px auto 0;
+  text-align: center;
+  width: 70%;
+}
+
+.ba .icon {
+  padding-bottom: 40px;
+}
+
+.ba h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+ 
+  color: #515151;
+  padding-bottom: 70px;
+}
+
+.ba p {
+  font-size: 20px;
+  
+  color: #b5b5b5;
+  padding-bottom: 40px;
+}
+
+/*** buyer section start ***/
+
+.buyer {
+  width: 100%;
+  float: left;
+  margin-top: 63px;
+}
+
+.buyer1 {
+  width: 50%;
+  float: left;
+  background: #e2f8ff;
+}
+
+.buyer11 {
+  width: 50%;
+  float: left;
+  background: #f5f9eb;
+}
+
+.buyer1 .buyer2 {
+  width: 50%;
+  float: left;
+}
+
+.buyer11 .buyer2 {
+  width: 50%;
+  float: left;
+}
+
+.buyer1 .buyer2 img {
+  padding: 50px 0 61px 75px;
+}
+
+.buyer11 .buyer2 img {
+  padding: 50px 0 80px 75px;
+}
+
+.buyer2 h2 {
+  
+  color: #515151;
+  font-size: 21px;
+  margin-left: -91px;
+  margin-top: 40px;
+}
+
+.buyer2 p {
+  font-size: 17px;
+  color: #515151;
+  margin-top: 28px;
+  margin-left: -92px;
+  margin-bottom: 30px;
+}
+
+.buyer1 .buyer2 .btn2 {
+  background: #26a6d1;
+  border: none;
+  border-radius: 9px;
+  color: white;
+  padding: 16px 20px;
+  font-size: 16px;
+  margin-left: -87px;
+}
+
+.buyer11 .buyer2 .btn2 {
+  background: #add136;
+  border: none;
+  border-radius: 9px;
+  color: white;
+  padding: 16px 20px;
+  font-size: 16px;
+  margin-left: -87px;
+}
+
+/***feature section start***/
+
+.featpro {
+  width: 100%;
+  float: left;
+  margin-top: 80px;
+}
+
+.featpro .txt {
+  width: 67%;
+  float: left;
+}
+
+.txt h2 {
+  color: #515151;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.txt p {
+  color: #515151;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.featpro .bt {
+  width: 30%;
+  float: left;
+}
+
+.bt .btn2 {
+  font-size: 15px;
+  font-weight: 500;
+  border: 2px solid;
+  border: 1px solid #838383;
+  border-radius: 21px;
+  padding: 15px 20px;
+  margin-left: 169px;
+  background: transparent;
+}
+
+/*portfolio section start*/
+
+.portfolio {
+  width: 100%;
+  float: left;
+  margin-top: 53px;
+}
+
+.portfolio .card {
+  width: 26.33%;
+  float: left;
+  margin-right: 77px;
+  border: 1px solid #0000001a;
+  border-radius: 7px;
+}
+
+.card .cardtxt {
+  width: 100%;
+  float: left;
+  background: #f9f9f9;
+  margin-top: -10px;
+}
+
+.card .cardtxt hr {
+  width: 91%;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.card .picture {
+  position: relative;
+}
+
+.picture .btni {
+  position: absolute;
+  top: 74%;
+  left: 54%;
+  background-color: #26a6d1;
+  color: white;
+  font-size: 13px;
+  padding: 9px 9px;
+  border: none;
+  border-radius: 9px;
+}
+
+.card .cardtxt h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #484848;
+  padding: 21px 14px 10px;
+}
+
+.card .cardtxt p {
+  font-size: 13px;
+  color: #484848;
+  margin-left: 18px;
+  padding-bottom: 64px;
+}
+
+.card .cardtxt label {
+  font-size: 16px;
+  color: #484848;
+  margin-left: 122px;
+  padding: 0 10px;
+}
+
+.card .cardtxt a {
+  font-size: 21px;
+  color: #add136;
+  padding-left: 8px;
+}
+
+/* sponsors section start*/
+
+.sponsor {
+  width: 100%;
+  float: lef;
+}
+
+.sponsor img {
+  margin-top: 90px;
+}
+/* footer section start*/
+
+footer{
+  width: 100%;
+  border-top: 1px solid #00000066;
+  float: left;
+  padding: 25px 0;
+  color: #0000009c;
+  margin-top: 44px;
+}
+footer h2{
+  text-align: center;
+  font-size: 20px;
+}
